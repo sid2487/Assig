@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/controllers/github.controller.ts","./src/routes/github.routes.ts","./src/services/github.ts","./src/types/Repo.ts","./src/types/User.ts","./src/utils/cache.ts"],"version":"5.9.3"}

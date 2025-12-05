@@ -35,30 +35,25 @@ src/utils/cache.ts
 
 ## Project Structure:
 
+```txt
 src/
-│
 ├── controllers/
-│   └── github.controller.ts   # Handles incoming requests
-│
+│   └── github.controller.ts
 ├── services/
-│   └── github.ts      # Fetches & caches GitHub API data
-│
+│   └── github.ts
 ├── utils/
-│   └── cache.ts               # In-memory cache
-|
+│   └── cache.ts
 ├── types/
-│   └── Repo.ts                # types of repo response
-|   └── User.ts                # types of user response
-│
+│   ├── Repo.ts
+│   └── User.ts
 ├── routes/
-│   └── github.routes.ts       # API routes
-│
+│   └── github.routes.ts
 ├── middleware/
-│   └── errorHandler.ts        # Centralized error handling
-│
-├── index.ts                   # Express app setup
+│   └── errorHandler.ts
+└── index.ts
 
 
+```
 
 ## Setup & Run Instructions:
 1) Clone the project

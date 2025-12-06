@@ -58,7 +58,6 @@ src/
 ## Setup & Run Instructions:
 1) Clone the project
    git clone <repo-url>
-   cd github-api-ts
 
 2) npm install
 
